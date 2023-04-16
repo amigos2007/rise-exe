@@ -20,7 +20,7 @@ Multibox Profile
 `,$(".fa-palette").onclick=()=>{setTimeout(()=>{if(window.hasNameColor){var e=document.createElement("div");e.id="nameColor",e.innerHTML=`
     <div style="padding:10px;">
     <span style="margin:4px">RISE.EXE Name color:</span>  
-    <input type="color" id="nameColorIn" onchange="setNameColor('input')" value="${window.hasNameColor}">
+    <input type="color" id="nameColorIn" onchange="setNameColor('input')" value="#ff6600">
     </div>
     `,$(".section").appendChild(e)}},100)},$("#openSkins").addEventListener("click",()=>{window.customModal('<div id="multiSkins"></div>',()=>{$("#multiSkins").innerHTML=`<center><img src="${window.settings.mbSkin}" width="170" style="padding:20px;border-radius:50%;">
 <br>
