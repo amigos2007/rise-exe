@@ -15,7 +15,7 @@ Multibox Profile
 </i>
 <div style="margin-top:20px;">
 <img id="skinDisplay1" width="120" style="margin-right:15px;border-radius:50%;" src="${localStorage.skinUrl}">
-<img id="skinDisplay2" width="120" src="https://skins.vanis.io/s/Bazab2" style="border-radius:50%;">
+<img id="skinDisplay2" width="120" src="${settings.mbSkin}" style="border-radius:50%;">
 </div>
 `,$(".fa-palette").onclick=()=>{setTimeout(()=>{if(window.hasNameColor){var e=document.createElement("div");e.id="nameColor",e.innerHTML=`
     <div style="padding:10px;">
